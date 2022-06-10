@@ -1,0 +1,86 @@
+section {
+  padding-top: 6rem;
+  padding-bottom: 2rem;
+}
+
+#about {
+  margin: 150px 160px 80px;
+}
+
+#about h2 {
+  font-family: Segoe UI;
+  font-size: 4vw;
+}
+
+#about h4 {
+  font-family: calibri;
+  font-size: 3vw;
+  margin: 2px 0;
+}
+
+#about p {
+  margin: 25px 0;
+  text-align: justify;
+  font-size: 1 1/2vw;
+}
+
+.news {
+  margin: 80px 160px 150px;
+}
+
+.news h2 {
+  font-family: Segoe UI;
+}
+
+.sm-icons {
+  flex-direction: row;
+}
+
+.sm-icons .nav-link {
+  padding-right: 1em;
+}
+
+.navbar {
+  z-index: 1;
+}
+
+.navbar-brand {
+  font-family: Helvetica;
+  font-size: 30px;
+}
+
+.nav-link {
+  margin-right: 30px;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 2px solid #da3a00;
+  width: 90%;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 7px;
+}
+
+.news1 {
+  margin: 0px 160px 100px;
+}
+
+.news1 h1 {
+  text-align: justify;
+}
+
+.news1 p {
+  text-align: justify;
+}
+
+#carouselExampleControls {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin: 150px 160px 80px;
+}
+
+.tour {
+  margin: 0px 160px 10px;
+}

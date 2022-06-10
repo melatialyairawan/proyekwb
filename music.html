@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Music</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home" style="background-color: #000000">
+    <!-- Navbar -->
+    <nav
+      class="navbar fixed-top navbar-expand-lg navbar-dark shadow-sm"
+      style="background-color: #000000"
+    >
+      <div class="container">
+        <a class="navbar-brand text-white" href="#">SHAWN MENDES</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html #about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html #news">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="music.html">Music</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tour.html">Tour</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav sm-icons">
+            <li>
+              <a class="nav-link" href="https://youtube.com/shawnmendes"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://twitter.com/shawnmendes"
+                ><i class="bi bi-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a class="nav-link" href="https://instagram.com/shawnmendes"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <img src="img/mus1.jpg" class="d-block img-fluid" alt="..." />
+            </div>
+            <div class="col-md-4">
+              <p
+                class="text-white"
+                style="font-family: Cambria; font-size: large"
+              >
+                Latest Release
+              </p>
+              <p
+                class="text-white"
+                style="font-family: Cambria; font-size: xx-large"
+              >
+                WHEN YOU'RE GONE
+              </p>
+              <a
+                href="https://whenyouregone.lnk.to/outnow"
+                class="btn btn-warning stretched-link"
+                style="margin-top: 2px; font-family: Calibri; font-size: large"
+                target="blank"
+                >STREAM/DOWNLOAD</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <img src="img/mus.jpg" class="d-block img-fluid" alt="..." />
+            </div>
+            <div class="col-md-4">
+              <p
+                class="text-white"
+                style="font-family: Cambria; font-size: xx-large"
+              >
+                IT'LL BE OKAY
+              </p>
+              <a
+                href="https://itllbeokay.lnk.to/outnow"
+                class="btn btn-warning stretched-link"
+                style="margin-top: 2px; font-family: Calibri; font-size: large"
+                target="blank"
+                >STREAM/DOWNLOAD</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="row align-items-center">
+            <div class="col-md-7">
+              <img src="img/mus3.jpg" class="d-block img-fluid" alt="..." />
+            </div>
+            <div class="col-md-4">
+              <p
+                class="text-white"
+                style="font-family: Cambria; font-size: xx-large"
+              >
+                SUMMER OF LOVE
+              </p>
+              <a
+                href="https://summeroflove.lnk.to/single"
+                class="btn btn-warning stretched-link"
+                style="margin-top: 2px; font-family: Calibri; font-size: large"
+                target="blank"
+                >STREAM/DOWNLOAD</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- akhir carousel -->
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #000000">
+      <!-- Grid container -->
+      <div class="container p-4"></div>
+      <!-- Grid container -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: #000000">
+        © 2022 Copyright:
+        <a class="text-white text-decoration-none">Melati Alya Putri Irawan</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Akhir Footer -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
